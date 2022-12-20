@@ -1,21 +1,27 @@
 /*
 Ce qu'il faut savoir sur NaN : 
+    
+    0) NaN représente le résultat d'une opération arithmétique qui est invalide.
 
     1) Pour beaucoup NaN = Not a Number, pourtant NaN est de type "number".
 
-    2) NaN représente le résultat d'une opération arithmétique qui est nulle.
-
-    3) On ne peut pas comparer NaN à lui-même directement.
-
+    2) On ne peut pas comparer NaN à lui-même directement.
 */
 
-console.log("le type de NaN est : "+typeof NaN);
-if (NaN === NaN) {
-    console.log("OK");
-} else {
-    console.log("not equal");
-}
+//#0
+    const whatIsNaN = 1 / "a"
+    console.log("#0 - tu peux avoir un NaN comme cela : 1 / a = " + whatIsNaN);
 
-if (Number.NaN == NaN) {
-    console.log("hey");
-}
+//#1
+    console.log("#1 - le type de NaN est : "+typeof NaN);
+
+//#2
+    if (NaN === NaN) {
+        console.log("On ne passera jamais ici");
+    } else {
+        console.log("Mais toujours ici");
+    }
+    //Car pour comparer on fait comme ça :
+    if (Number.isNaN(NaN)) {
+        console.log("Oui je suis NaN. :)");
+    }
