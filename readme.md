@@ -67,7 +67,7 @@ function isNotNumber(args) {
 ```
 
 So, with this function if the return is more than 0 ?
-It's the proof that the array you passed like arguments contains some stuff who is not a number :
+It's the proof that the array you passed as arguments contains some stuff that is not a number :
 
 ```js
 //Here "args" is an array
@@ -81,7 +81,7 @@ if (isNotNumber(args) > 0) {
 
 ## 3 -  My second tips to verify the opposite
 
-In an other way you can just delete the "!" in the filter function to have the perfect oposite and search only stuff who is not a number : 
+In an other way you can just delete the "!" in the filter function to have the perfect oposite and only stuff who is not numbers :
 
 ```js
 //Here "args" is an array
@@ -90,7 +90,7 @@ function isNotNumber(args) {
 }
 ```
 
-To tested that you can do :
+To tested that :
 
 ```js
 //Here "args" is an array
