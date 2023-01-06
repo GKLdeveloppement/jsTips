@@ -9,13 +9,13 @@
 
 ## 1 - Create a file
 
-You can create your file throught the IDE that you use or you can make this command in the terminal :
+You can create your file throught the IDE that you use or you can type this command in the terminal :
 
 ```js
 touch terminalJS.js
 ```
 
-Then, let do a basic Javacript code :
+Then, do a basic Javacript code :
 
 ```js
 const gg = "good job dude."
@@ -30,7 +30,7 @@ To execute that code in your terminal, just write this in this one :
 node terminalJS.js
 ```
 
-you gonna see :
+you are going to see :
 
 ```js
 good job dude.
