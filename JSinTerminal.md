@@ -63,6 +63,20 @@ function getReturnExec(fileName) {
 getReturnExec(["terminalJS.js"])
 ```
 
+- Write in the terminal the command line to run "ggDude.js"
+
+```js
+node ggDude.js
+```
+
+The result :
+
+```js
+good job dude.
+```
+
+Therefore, the new file that we created get the result of terminalJS.js and return it.
+
 ## 4 - Get the parameters of the terminal in a JS file
 
 As we can see, in the above part, we just passed the filename without variable when we call the function.
