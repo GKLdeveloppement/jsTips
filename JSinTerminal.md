@@ -1,4 +1,4 @@
-# Javascript in the terminal
+# Execute Javascript in the terminal
 
 ## Table of contents
 
@@ -24,7 +24,7 @@ console.log(gg)
 
 ## 2 - Execute the file
 
-To execute that code in your terminal, just write this in this one :
+To execute that code in your terminal, just write this in the terminal :
 
 ```js
 node terminalJS.js
@@ -38,7 +38,7 @@ good job dude.
 
 ## 3 - Get the return of a JS file execution in an other script
 
-To get the return value of the "terminalJS.js" file in an other file :
+To get the return value of the "terminalJS.js" file in an another file :
 
 - Create a new file :
 
