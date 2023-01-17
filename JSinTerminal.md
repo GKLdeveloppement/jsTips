@@ -7,9 +7,11 @@
 3. Get the return of a JS file execution
 4. Get the parameters of the terminal in a JS file
 
+-------------------
+
 ## 1 - Create a file
 
-You can create your file throught the IDE that you use or you can type this command in the terminal :
+You can create your file through the IDE that you use or you can type this command in the terminal :
 
 ```js
 touch terminalJS.js
@@ -21,6 +23,8 @@ Then, do a basic Javacript code :
 const gg = "good job dude."
 console.log(gg)
 ```
+
+-------------------
 
 ## 2 - Execute the file
 
@@ -35,6 +39,8 @@ you are going to see :
 ```js
 good job dude.
 ```
+
+-------------------
 
 ## 3 - Get the return of a JS file execution in an other script
 
@@ -77,6 +83,8 @@ good job dude.
 
 Therefore, the new file that we created get the result of terminalJS.js and return it.
 
+-------------------
+
 ## 4 - Get the parameters of the terminal in a JS file
 
 To get the parameters of the terminal in a JS file, as we can see in the above part, we just passed the filename without variable when we call the function.
@@ -94,7 +102,7 @@ const arg1 = args[0];
 //the second one is the path of the file what we need to execute
 const arg2 = args[1];
 
-//the third one is an additionnal argument, here the filename that we target, to get its content
+//the third one is an additional argument, here the filename that we target, to get its content
 const arg3 = args[2];
 
 
