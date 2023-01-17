@@ -46,7 +46,7 @@ To get the return value of the "terminalJS.js" file in an another file :
 touch ggDude.js
 ```
 
-- In this file, add that to get the content :
+- In this file, add the following to get the contents:
 
 ```js
 //The child_process.spawn() method spawns a new process using the given command, with command-line arguments in args, but the spawnAsync function will not return until the child process has fully closed.
@@ -79,8 +79,8 @@ Therefore, the new file that we created get the result of terminalJS.js and retu
 
 ## 4 - Get the parameters of the terminal in a JS file
 
-As we can see, in the above part, we just passed the filename without variable when we call the function.
-Basically, to make that more flexible and adaptative we need to variablize that to choose which file we need to target.
+To get the parameters of the terminal in a JS file, as we can see in the above part, we just passed the filename without variable when we call the function.
+Essentially, to make it more flexible and adaptable we need to make it variable so we can choose which file we need to target.
 
 Modify the "ggDude.js" file like that :
 
@@ -117,10 +117,12 @@ function getReturnExec(fileName) {
 getReturnExec([fileName])
 ```
 
-Above, we execute the file "ggDude.js" and we passed the name of the file "terminalJS.js", its the file that we need to target and get content.
+Above, we execute the file "ggDude.js" and pass the name of the file "terminalJS.js", which is the file that we need to target and get the contents from.
 
-To conclude, if we need to change the file that we need get the content, we can just change our terminal command and target an other file.
-No demonstration for that, I let you test that yourself.
-Practice make progress! :muscle:
+NB : To see the result I let you test that yourself.
+
+To conclude, if we need to change the file  we want to get the contents from, we can just change our terminal command and target an other file.
+
+Practice makes progress ! :muscle:
   
 ~SemihGKl
