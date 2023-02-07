@@ -35,6 +35,12 @@ function isNotFile(args) {
 }
 ```
 
+Now we need to call the function with the good parameter :
+
+```js
+isNotFile(['test.txt'])
+```
+
 Practice makes progress ! :muscle:
   
 ~SemihGKl
