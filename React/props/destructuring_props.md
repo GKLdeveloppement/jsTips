@@ -4,6 +4,7 @@
 
 1. The classic method to call props in React
 2. How use the destructuring
+3. An other way
 
 ---
 
@@ -44,6 +45,25 @@ const Book = (props) => {
 ```
 
 ---
+
+## 3 - An other way
+
+And this is an other method for destructuring the code.
+
+```js
+const Book = ({ title, author }) => {
+  return (
+    <article className="book">
+      <h2>{title}</h2>
+      <h4>{author} </h4>
+    </article>
+  );
+};
+```
+
+---
+
+By the way, all three methods are good is just depends on your preferences.
 
 Practice makes progress ! :muscle:
 
